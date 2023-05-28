@@ -550,7 +550,8 @@ a. Add to the above job completions: 10 inside the yaml
     status: {}
 
 ---
-#PART-4 - CONFIGMAP:
+
+# PART-4 - CONFIGMAP:
 
 1. Create a file called config.txt with two values key1=value1 and key2=value2 and verify the file
 ---
