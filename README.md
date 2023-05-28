@@ -1,7 +1,7 @@
 # k8sexam
 PART-1 - K8s exam:
 1. Deploy a pod named nginx-pod using the nginx:alpine image. Name: nginx-pod-yourname Image: nginx:alpine
-'''
+
 apiVersion: v1
 kind: Pod
 metadata:
@@ -17,7 +17,6 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
-'''
 
 2. Deploy a messaging pod using the redis:alpine image with the labels set to tier=msg. Pod Name: messaging Image: redis:alpine Labels: tier=msg 
 
