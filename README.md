@@ -1,7 +1,7 @@
 # k8sexam
 PART-1 - K8s exam:
 1. Deploy a pod named nginx-pod using the nginx:alpine image. Name: nginx-pod-yourname Image: nginx:alpine
-# YAML 
+
 apiVersion: v1
 kind: Pod
 metadata:
